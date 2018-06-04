@@ -1,0 +1,230 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	var module = __webpack_require__(id);
+	return module;
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error('Cannot find module "' + req + '".');
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/$$_lazy_route_resource lazy recursive":
+/*!**********************************************************!*\
+  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error('Cannot find module "' + req + '".');
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".container{\r\n\r\n\r\n    height : 1100px;\r\n    width :370px;\r\n    background-color:#454c57;\r\n    margin-left :10px;\r\n\r\n   \r\n    \r\n    \r\n    \r\n\r\n}\r\n\r\n\r\n\r\n\r\n.date{\r\n    height : 200px;\r\n    width :450px;\r\n   \r\n   \r\n\r\n}\r\n\r\n\r\n\r\n\r\n.containerp{\r\n    height : 200px;\r\n    width :450px;\r\n    margin-top:-970px;\r\n    margin-bottom: 400px;\r\n    margin-left: 460px;\r\n   \r\n    \r\n}\r\n\r\n\r\n\r\n\r\nbody{\r\n    background-attachment: fixed;\r\n    \r\n    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n   \r\n  \r\n    \r\n    background-size: cover;\r\n    width:65%;\r\n    margin:0 auto;\r\n}\r\n\r\n\r\n\r\n\r\nimg{\r\n\r\n    margin-left: 75px; \r\n    border-radius: 55px;  \r\n}\r\n\r\n\r\n\r\n\r\nh2{\r\n    background-color:black;\r\n   \r\n}\r\n\r\n\r\n\r\n\r\nsmall {\r\n    padding-right : 30%;\r\n    \r\n}\r\n\r\n\r\n\r\n\r\n.codate{\r\n\r\n    width: 100px;\r\n    height:1000px;\r\n    background-color: white;\r\n    margin-top: -450px;\r\n    margin-left: 390px;\r\n    \r\n}\r\n\r\n\r\n\r\n\r\n.meter { \r\n\theight: 10px;  \r\n\tposition: relative;\r\n\tbackground: #555;\r\n\tborder-radius: 0px;\r\n\tpadding: 0px;\r\n\tbox-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);\r\n}\r\n\r\n\r\n\r\n\r\n.meter > span {\r\n    display: block;\r\n    height: 100%;\r\n    border-top-right-radius: 0px;\r\n    border-bottom-right-radius: 0px;\r\n    border-top-left-radius: 0px;\r\n    border-bottom-left-radius: 0px;\r\n    background-color:white;\r\n   \r\n      \r\n    \r\n    position: relative;\r\n    overflow: hidden;\r\n  }"
+
+/***/ }),
+
+/***/ "./src/app/app.component.html":
+/*!************************************!*\
+  !*** ./src/app/app.component.html ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n\n<body>\n        \n   \n<div style=\"color:White;\" class= \"container\" >\n\n\n    <h3 align= \"center\">Nokwethemba Ntombela</h3>\n    <h3 align= \"center\">Developer</h3>\n    <div>\n    <img src=\"../assets/nono.jpg\"width=200px height=200px>  \n    \n    \n    </div>\n    \n    <h2 style=\"color:White;\">Personal Details</h2>\n    \n    <Strong>Contact: </Strong> 0818512319 <br>\n    <Strong>Email: </Strong>:thembelihlentombela55@gmail.com <br><br>\n\n    <h2 style=\"color:White;\">Social Media</h2>\n    \n    <Strong>linkedin</Strong> <br>\n    www.linkedin.com/nokwethemba\n\n    <h2 style=\"color:White;\">Skills</h2>\n    \n    Analystical Thinking<br>\n    \n    Business analysis<br>\n    \n    system information strategy<br>\n    \n    Communication Skills<br>\n   \n    Agile methodology for software development<br>\n   \n    Leardership skills\n   \n    <h2 style=\"color:White;\">Software</h2>\n    \n    Oracle<br>\n\n\n    visual studio<br>\n    <div style = \"width:30%\" class=\"meter\">\n            <span style=\"width: 75%\"></span>\n          </div>\n    Java<br>\n    <div style = \"width:30%\" class=\"meter\">\n            <span style=\"width: 75%\"></span>\n          </div>\n    HTML<br>\n    <div style = \"width:30%\" class=\"meter\">\n            <span style=\"width: 75%\"></span>\n          </div>\n    PLSQL<br>\n    <div style = \"width:30%\" class=\"meter\">\n            <span style=\"width: 75%\"></span>\n          </div>\n    Microsoft Office\n    <div style = \"width:30%\" class=\"meter\">\n            <span style=\"width: 75%\"></span>\n          </div>\n    <h2 style=\"color:White;\">Achievement</h2>\n    \nIBM : mobile application development <br>\nIBM : Business intelligence\n\n\n\n\n    <div style=\"color:black;\"     class= \"containerp\">\n\n    \n        \n        I am a professional student who has completed her 3-year National Diploma in Information Technology.\n        I am a committed and a broad-minded young woman who works very well under pressure with good communication skills. I challenge myself to improve my abilities to objectively communicate with people, stakeholders and work well in teams to achieve a certain goal or objective.\n        I am an energetic and honest person who has a mature and responsible approach to any task I undertake or any situation that I am presented with.  \n        \n        \n\n\n        <!-- <hr align=\"left\" width=\"50%\"> -->\n            <hr><b>Experience</b>   <hr>\n                I am an intern at Mlab Soweto Kasilab working together with innovation hub for a minimum of six months of training and learning development software,\n                the program is called code tribe.\n        \n                <hr> <b>Project</b><hr>\n            <p>Company : Ambio Water testing Lab</p>\n            <p>Role: Analysts and developer</p>\n            <p>Duties: Scope defining <br> lock down requirements <br> analysis<br> Usecases</p>\n    \n      \n    \n\n\n        <hr> <b>Education</b><hr>\n\n        <p>Qualifications :National diploma information technlogy </p>\n        <p>School : Vaal Univeristy of Technology</p>\n        <p>Major subjects:Business Analysis, Development Software</p>\n        <p>Year : 2017</p>\n   \n    <hr>\n     <p>School: Northview HighSchool</p>\n     <p>Subjects: Math and Science</p>\n     <p>Year : 2012</p>\n    \n   \n    \n     <hr><b> Reference</b><hr>\n        \n        <p> Name : Herman</p>\n        <p> Company : Ambio Water testing Lab</p>\n        <p> Position: Technician</p>\n        <p> Contact:0827264739</p>\n\n     \n\n      </div>\n\n\n<div style=\"color:black;\" class =\"codate\">\n    \n2018<br>\n<br>\n<br>\n<br>\n<br>\n<br><br>2017<br><br><br><br><br><br><br><br><br><br><br>2014 - <br>2017<br><br>\n\n<br><br><br><br><br><br><br>2010 - <br>2012\n\n\n\n\n    </div>\n\n</div>\n\n  \n</body>"
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var AppComponent = /** @class */ (function () {
+    function AppComponent() {
+        this.title = 'app';
+    }
+    AppComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+        })
+    ], AppComponent);
+    return AppComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            declarations: [
+                _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]
+            ],
+            imports: [
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]
+            ],
+            providers: [],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+var environment = {
+    production: false
+};
+/*
+ * In development mode, to ignore zone related error stack frames such as
+ * `zone.run`, `zoneDelegate.invokeTask` for easier debugging, you can
+ * import the following file, but please comment it out in production mode
+ * because it will have performance impact when throw error
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(function (err) { return console.log(err); });
+
+
+/***/ }),
+
+/***/ 0:
+/*!************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0 ./src/main.ts ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Nokwethemba\Desktop\myCV\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0 */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0");
+module.exports = __webpack_require__(/*! C:\Users\Nokwethemba\Desktop\myCV\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map
